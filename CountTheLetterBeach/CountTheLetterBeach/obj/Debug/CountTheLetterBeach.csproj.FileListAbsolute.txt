@@ -1,0 +1,9 @@
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\bin\Debug\CountTheLetterBeach.exe.config
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\bin\Debug\CountTheLetterBeach.exe
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\bin\Debug\CountTheLetterBeach.pdb
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\obj\Debug\CountTheLetterBeach.csprojResolveAssemblyReference.cache
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\obj\Debug\CountTheLetterBeach.Form1.resources
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\obj\Debug\CountTheLetterBeach.Properties.Resources.resources
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\obj\Debug\CountTheLetterBeach.csproj.GenerateResource.Cache
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\obj\Debug\CountTheLetterBeach.exe
+C:\Users\itadmin\Desktop\testapp\CountTheLetterBeach\CountTheLetterBeach\obj\Debug\CountTheLetterBeach.pdb
