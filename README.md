@@ -12,3 +12,8 @@ Contains some of the test codes I wrote to demonstrate different algorithms and 
    - Added a windows form to access the service
    - The form would access the web service and send a set of string
    - The Web Service would send back the same set of strings
+
+4. Counting letters in a sentence/phrase
+   - This is a simple c# form that counts the letters in a given sentence/form
+   - The application would count the letters and then compare them to a string containing alphanumeric characters
+   - It would keep count of the letters in an array and increment the count as long as it has not reach the final character
