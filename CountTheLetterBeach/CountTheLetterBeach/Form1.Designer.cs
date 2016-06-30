@@ -33,6 +33,8 @@
             this.lstShowCount = new System.Windows.Forms.ListBox();
             this.btnCountBitch = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.cmbStartPage = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtLettersToCount
@@ -55,9 +57,9 @@
             // 
             this.lstShowCount.FormattingEnabled = true;
             this.lstShowCount.ItemHeight = 16;
-            this.lstShowCount.Location = new System.Drawing.Point(15, 63);
+            this.lstShowCount.Location = new System.Drawing.Point(15, 111);
             this.lstShowCount.Name = "lstShowCount";
-            this.lstShowCount.Size = new System.Drawing.Size(558, 180);
+            this.lstShowCount.Size = new System.Drawing.Size(558, 132);
             this.lstShowCount.TabIndex = 2;
             // 
             // btnCountBitch
@@ -80,11 +82,30 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // cmbStartPage
+            // 
+            this.cmbStartPage.FormattingEnabled = true;
+            this.cmbStartPage.Location = new System.Drawing.Point(152, 62);
+            this.cmbStartPage.Name = "cmbStartPage";
+            this.cmbStartPage.Size = new System.Drawing.Size(268, 24);
+            this.cmbStartPage.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(137, 17);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Page Starting letters";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 295);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cmbStartPage);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCountBitch);
             this.Controls.Add(this.lstShowCount);
@@ -93,6 +114,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Count The Letters Beach!";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,6 +127,8 @@
         private System.Windows.Forms.ListBox lstShowCount;
         private System.Windows.Forms.Button btnCountBitch;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.ComboBox cmbStartPage;
+        private System.Windows.Forms.Label label2;
     }
 }
 

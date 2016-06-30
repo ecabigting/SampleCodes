@@ -1,0 +1,142 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArialMTStd-Bold
+FamilyName:Arial MT Std
+StyleName:Bold
+MenuName:Arial MT Std
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Arial MT Std Bold
+WritingScript:Roman
+OutlineFileName:\ArialMTStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:30296
+FileModTime:1296491312
+NameArray:0,Mac,4,Arial MT Std Bold
+NameArray:0,Win,1,Arial MT Std
+NameArray:0,Win,16,Arial MT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArialMTStd
+FamilyName:Arial MT Std
+StyleName:Regular
+MenuName:Arial MT Std
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Arial MT Std
+WritingScript:Roman
+OutlineFileName:\ArialMTStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:29028
+FileModTime:1296491312
+NameArray:0,Mac,4,Arial MT Std
+NameArray:0,Win,1,Arial MT Std
+NameArray:0,Win,16,Arial MT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:204344
+FileModTime:1112417015
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TitilliumText25L-999wt
+FamilyName:TitilliumText25L
+StyleName:999 wt
+MenuName:TitilliumText25L
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:TitilliumText25L 999 wt
+WritingScript:Roman
+OutlineFileName:\TitilliumText25L.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:52272
+FileModTime:1351161590
+NameArray:0,Mac,4,TitilliumText25L 999 wt
+NameArray:0,Win,1,TitilliumText25L
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TitilliumText25L-400wt
+FamilyName:TitilliumText25L
+StyleName:400 wt
+MenuName:TitilliumText25L
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:TitilliumText25L 400 wt
+WritingScript:Roman
+OutlineFileName:\TitilliumText25L003.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:52064
+FileModTime:1351161592
+NameArray:0,Mac,4,TitilliumText25L 400 wt
+NameArray:0,Win,1,TitilliumText25L
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Wingdings2
+FamilyName:Wingdings 2
+StyleName:Regular
+MenuName:Wingdings 2
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Wingdings 2
+WritingScript:Roman
+OutlineFileName:\Wingdings 2.ttf
+DataFormat:sfntData
+FileLength:68768
+FileModTime:1247759022
+NameArray:0,Mac,4,Wingdings 2
+NameArray:0,Win,1,Wingdings 2
+%EndFont
+

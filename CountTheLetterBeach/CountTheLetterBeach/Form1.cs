@@ -26,6 +26,7 @@ namespace CountTheLetterBeach
         private void btnCountBitch_Click(object sender, EventArgs e)
         {
             //abcdefghijklmnopqrstuvwxyz1234567890
+            int startingPage = Int32.Parse(cmbStartPage.Text.ToString());
             Dictionary<string, int> dictShowCounts = dictBuildCharDictionary("abcdefghijklmnopqrstuvwxyz1234567890");
             char[] countThisBitch = txtLettersToCount.Text.Replace(" ","").ToLower().ToCharArray();
             foreach (char inLetter in countThisBitch) {
@@ -34,9 +35,10 @@ namespace CountTheLetterBeach
             lstShowCount.Items.Clear();
             foreach (KeyValuePair<string, int> kvp in dictShowCounts) {
                 if (kvp.Value != 0) {
-                    string addToLst = kvp.Key + " - " + kvp.Value;
+                    string addToLst = "pg:" + startingPage.ToString() + " - " + kvp.Key + " - " + kvp.Value;
                     lstShowCount.Items.Add(addToLst);
                 }
+                startingPage++;
             }
         }
 
@@ -57,5 +59,32 @@ namespace CountTheLetterBeach
             return dictFinal;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            fillCMB();
+        }
+
+        private void fillCMB()
+        {
+            for(int x = 1; x < 5; x++)
+            {
+                ComboboxItem cbItem = new ComboboxItem();
+                cbItem.Text = x.ToString();
+                cbItem.Value = x.ToString();
+                cmbStartPage.Items.Add(cbItem);
+            }
+            cmbStartPage.SelectedIndex = 0;
+        }
+
+        public class ComboboxItem
+        {
+            public string Text { get; set; }
+            public object Value { get; set; }
+
+            public override string ToString()
+            {
+                return Text;
+            }
+        }
     }
 }
